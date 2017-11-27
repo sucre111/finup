@@ -1,1 +1,0 @@
- val ploan_m5 = ploan.filter($"create_time".gt(lit("2017-05-01"))).filter($"create_time".lt(lit("2017-06-01"))).select("apply_no","create_time","pass_time","status","is_over_due","source","user_id","core_customer_id","core_request_id")
